@@ -9,7 +9,7 @@ This project is a simple command-line interface (CLI) tool implemented in Rust.
 Use the `cargo install` command with the `--git` option to specify a Git URL.
 
 ```shell
-carog install --git https://github.com/codemountains/rusty-dev-cli-utility
+cargo install --git https://github.com/codemountains/rusty-dev-cli-utility
 ```
 
 ### Usage
@@ -21,7 +21,7 @@ carog install --git https://github.com/codemountains/rusty-dev-cli-utility
 ### Uninstall
 
 ```shell
-carog uninstall rusty-dev-cli-utility
+cargo uninstall rusty-dev-cli-utility
 ```
 
 ## LICENSE
