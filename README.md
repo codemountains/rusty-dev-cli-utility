@@ -24,6 +24,20 @@ cargo install --git https://github.com/codemountains/rusty-dev-cli-utility
 cargo uninstall rusty-dev-cli-utility
 ```
 
+## Build for Windows
+
+Navigate to that directory in our terminal. In the terminal, run the following command:
+
+```shell
+docker build . -t rust_cross_compile/windows
+```
+
+Once you’ve created the image, then you can run the container by executing the following command:
+
+```shell
+docker run --rm -v $(pwd):/app rust_cross_compile/windows
+```
+
 ## LICENSE
 
 This project is licensed under the [MIT license](LICENSE).
